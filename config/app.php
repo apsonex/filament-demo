@@ -161,7 +161,6 @@ return [
         Illuminate\Translation\TranslationServiceProvider::class,
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
-        \Laravel\Octane\OctaneServiceProvider::class
 
         /*
          * Package Service Providers...
@@ -178,6 +177,7 @@ return [
         App\Providers\Filament\AdminPanelProvider::class,
         App\Providers\Filament\AppPanelProvider::class,
         App\Providers\RouteServiceProvider::class,
+        \Laravel\Octane\OctaneServiceProvider::class,
 
     ],
 
